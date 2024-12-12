@@ -82,7 +82,7 @@
     "@walletconnect/web3-provider": "1.1.1-alpha.0"
   },
   "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
@@ -109,3 +109,4 @@
     "@fusionchain/sdk": "1.0.2"
   }
 }
+run $env:NODE_OPTIONS="--openssl-legacy-provider" first
