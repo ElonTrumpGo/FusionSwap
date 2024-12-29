@@ -5,7 +5,7 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/svg/logo.png'
+import Logo from '../../assets/svg/logo1.svg'
 import LogoDark from '../../assets/svg/logo_white.png'
 import Wordmark from '../../assets/svg/wordmark.png'
 import WordmarkDark from '../../assets/svg/wordmark_white.png'
